@@ -75,7 +75,7 @@ class Report implements ReportInterface
     /**
      * {@inheritdoc}
      */
-    public function getCode()
+    public function getCode(): ?string
     {
         return $this->code;
     }
